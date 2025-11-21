@@ -6,7 +6,7 @@
             --text-primary: #ffffff;
             --text-secondary: #776e6e;
             --accent: #ced2d3;
-            --card-shadow: 0 8px 32px 0 rgba(94, 86, 86, 0.37);
+            --card-shadow: 0 8px 32px 0 rgba(4, 3, 3, 0.37);
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -44,6 +44,8 @@
             box-shadow: var(--card-shadow);
             height: fit-content;
             animation: fadeIn 0.8s ease-out;
+            width: 500px;
+            height: 800px;
         }
 
         .profile-pic {
