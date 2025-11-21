@@ -2,9 +2,9 @@
         :root {
             --bg-gradient: rgb(43, 4, 4);
             --glass-bg: rgba(10, 0, 0, 0.05);
-            --glass-border: rgba(155, 121, 121, 0.1);
+            --glass-border: rgba(209, 200, 200, 0.1);
             --text-primary: #ffffff;
-            --text-secondary: #776e6e;
+            --text-secondary: #b3b3b3;
             --accent: #ced2d3;
             --card-shadow: 0 8px 32px 0 rgba(4, 3, 3, 0.37);
         }
