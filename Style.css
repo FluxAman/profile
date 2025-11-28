@@ -207,3 +207,72 @@
             from { top: 10%; left: 10%; }
             to { top: 20%; left: 30%; }
         }
+
+/* Edit Button Styles */
+.edit-btn {
+    background: none;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.edit-btn:hover {
+    color: #fff;
+}
+
+.edit-mode {
+    border: 1px solid #444;
+    padding: 5px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.save-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+.cancel-btn {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 0.8rem;
+}
+
+.edit-actions {
+    margin-top: 10px;
+}
+
+.add-btn {
+    background: var(--glass-bg);
+    border: 1px dashed var(--glass-border);
+    color: var(--text-secondary);
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+    background: rgba(255,255,255,0.05);
+    color: var(--text-primary);
+}
