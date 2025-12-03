@@ -55,7 +55,7 @@
         // Load data on start
         async function loadData() {
             try {
-                const res = await fetch('/api/data');
+                const res = await fetch('data.json');
                 currentData = await res.json();
                 renderProfile();
                 renderEducation();
